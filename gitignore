@@ -1,0 +1,44 @@
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+config.local.*
+
+# Database dumps, logs and local database files
+*.log
+*.dump
+*.bak
+*.sqlite
+*.sqlite3
+*.db
+*.ibd
+*.frm
+mysql-data/
+dump/
+
+# MySQL / MySQL Shell
+.mysql_history
+.mysqlsh/
+mysqlsh.log
+
+# Python (diagram scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated previews
+preview-*.png
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
